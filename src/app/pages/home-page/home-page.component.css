@@ -1,0 +1,134 @@
+.box{
+    /* background-color: rgb(255, 240, 240); */
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    width: 85%;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    overflow: scroll;
+    margin-bottom: 50px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+input{
+    cursor: context-menu;
+}
+.text-center{
+    color: #F7EFE5;
+    cursor: default;
+}
+/* .addInput{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.addInput i{
+    color: white;
+    margin-left: 10px;
+    font-size: large;
+} */
+i:active{
+	margin-left: 12px;
+}
+.compl{
+    text-decoration: line-through;
+    color: red
+}
+p{
+    color: white;
+}
+
+input[type=checkbox]:checked + p.strikethrough {
+    text-decoration:line-through;
+    color: red;
+}
+/* .scrollbar-lady-lips::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-lady-lips::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#ff9a9e), color-stop(99%, #fecfef),
+            to(#fecfef));
+    background-image: -webkit-linear-gradient(bottom, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+.scrollbar-lady-lips {
+    scrollbar-color: #ff9a9e #F5F5F5;
+} */
+
+
+.scrollbar-indigo::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #00000000;
+    border-radius: 10px;
+}
+
+.scrollbar-indigo::-webkit-scrollbar {
+    width: 12px;
+    background-color: #ffffff00;
+}
+
+.scrollbar-indigo::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #3f51b5;
+}
+
+.scrollbar-indigo {
+    scrollbar-color: #3f51b5 #F5F5F5;
+}
+
+/* Input Box */
+.mainTitle {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+ 
+  .fieldInput {
+    display: block;
+    margin: 70px auto;
+    width: 300px;
+    background:#959449 ;
+    height: 50px;
+    position: relative;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.5);
+    border-radius: 35px;
+    overflow: hidden;
+    .form-input {
+      width: 200px;
+      background:#959449 ;
+      
+      border: none;
+      padding: 12px 20px;
+      font-size: 20px;
+      color: #ffffff;
+      &:focus {
+        outline: none;
+      }
+    }
+    .form-submit {
+      font-size: 25px;
+      color: #ffffff;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 70px;
+      height: 35px;
+      border-radius: 17px;
+      border: none;
+      background: none;
+      box-shadow: 5px -2px 81px 1px rgba(0,0,0,0.09);
+      cursor: pointer;
+      margin-top: 3px;
+    }
+  }
+
+/* Input Box */
+
+.content input{
+    margin-right: 40px;
+}
